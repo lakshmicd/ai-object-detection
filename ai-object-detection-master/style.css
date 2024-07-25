@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-image: url('./images/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+video {
+    width: 0px;
+    height: 0px;
+}
+
+table {
+    width: auto;
+    margin: auto;
+}
+
+tr,
+td {
+    border: 0px;
+    text-align: center;
+}
+
+
+.switch label {
+    font-size: 20px; 
+    color:black;
+}
+
+.switch .lever {
+    height: 20px; 
+    width: 40px; 
+}
+
+.switch input[type="checkbox"] {
+    width: 0;
+    height: 0;
+}
